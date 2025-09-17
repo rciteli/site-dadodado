@@ -62,17 +62,15 @@ function Divider({ from = '#000000', to = '#170d4d' }: { from?: string; to?: str
 
 export default function BlogIndexPage() {
   return (
-    <main className="min-h-screen bg-[#170d4d] text-[#d9d9d9]">
-      {/* Fundo com glows suaves */}
-      <div className="pointer-events-none absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-[#170d4d]" />
-        <div className="absolute -top-24 -left-24 h-[28rem] w-[28rem] rounded-full blur-3xl opacity-40"
-             style={{ background: 'radial-gradient(40% 40% at 50% 50%, rgba(56,212,176,0.25), transparent 70%)' }} />
-        <div className="absolute top-1/3 -right-24 h-[26rem] w-[26rem] rounded-full blur-3xl opacity-35"
-             style={{ background: 'radial-gradient(40% 40% at 50% 50%, rgba(59,37,161,0.28), transparent 70%)' }} />
-      </div>
-
+    <main className="min-h-screen overflow-x-hidden bg-[#170d4d] text-[#d9d9d9]">
       <Nav />
+      {/* Fundo com glows suaves */}
+      <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0C0F1A] via-[#0F1322] to-[#0C0F1A]" />
+        <div className="absolute -top-20 -left-20 h-[36rem] w-[36rem] rounded-full bg-[#00C0FF]/15 blur-3xl" />
+        {/* em vez de translate, use offset negativo e deixe o wrapper cortar */}
+        <div className="absolute -bottom-32 -right-[12%] h-[40rem] w-[40rem] rounded-full bg-[#00005A]/30 blur-3xl" />
+      </div>
 
       {/* HERO */}
       <section className="relative overflow-hidden bg-black">
