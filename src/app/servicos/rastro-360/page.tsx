@@ -106,7 +106,7 @@ export default function Rastro360Page() {
       {/* 5 DIMENSÕES */}
       <section className="relative bg-[#170d4d]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-12 sm:pb-16">
-          <Reveal><h2 className="text-2xl sm:text-3xl font-bold">As 5 dimensões do Rastro</h2></Reveal>
+          <Reveal><h2 className="text-2xl sm:text-3xl font-bold">As dimensões do <strong>Rastro</strong></h2></Reveal>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
             <StaggerList step={70} y={14}>
               {[
