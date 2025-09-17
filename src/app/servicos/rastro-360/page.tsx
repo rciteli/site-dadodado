@@ -176,7 +176,7 @@ export default function Rastro360Page() {
 
               <div className="flex flex-col gap-5 sm:gap-6">
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold">Rastro 360 — Premium</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold">Rastro 360<br></br>Premium</h3>
                   <p className="mt-2 text-[#3b25a1]/90">
                     Acesso completo a narrativas, rotas de difusão, hubs e comparações de frames — com séries,
                     alertas e recomendações. Inclui suporte e Q&amp;A.

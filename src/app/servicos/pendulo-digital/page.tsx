@@ -178,7 +178,7 @@ export default function PenduloDigitalPage() {
 
                             <div className="flex flex-col gap-5 sm:gap-6">
                                 <div>
-                                    <h3 className="text-xl sm:text-2xl font-bold">Pêndulo Digital — Premium</h3>
+                                    <h3 className="text-xl sm:text-2xl font-bold">Pêndulo Digital<br></br>Premium</h3>
                                     <p className="mt-2 text-[#3b25a1]/90">
                                         Acesso completo ao índice (0–100), dimensões, série temporal, visão competitiva e recomendações.
                                         Inclui suporte e acompanhamento.

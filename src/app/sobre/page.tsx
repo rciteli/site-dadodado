@@ -119,17 +119,6 @@ export default function SobrePage() {
                 </div>
               </Reveal>
             </div>
-
-            <div className="lg:col-span-5">
-              <Reveal delay={120}>
-                <div className="rounded-2xl p-5 sm:p-6 bg-white/5 backdrop-blur ring-1 ring-white/10 shadow-[0_10px_30px_rgba(0,0,0,0.35)]">
-                  <div className="rounded-xl ring-1 ring-white/10 bg-gradient-to-br from-[#38d4b0]/10 to-[#3b25a1]/10 grid place-items-center aspect-[16/10] sm:aspect-[16/9]">
-                    <LineChart className="h-10 w-10 sm:h-12 sm:w-12 text-[#38d4b0]" />
-                  </div>
-                  <p className="mt-3 text-xs text-[#d9d9d9]/70">*Trocar por um mockup/visual do produto.</p>
-                </div>
-              </Reveal>
-            </div>
           </div>
         </div>
       </section>

@@ -174,7 +174,7 @@ export default function LupaSocialPage() {
 
               <div className="flex flex-col gap-5 sm:gap-6">
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold">Lupa Social — Premium</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold">Lupa Social<br></br>Premium</h3>
                   <p className="mt-2 text-[#3b25a1]/90">
                     Acesso completo a sentimento, temas, difusão e frames — com séries temporais, amostras explicativas,
                     alertas e recomendações. Inclui suporte e Q&amp;A.

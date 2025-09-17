@@ -173,7 +173,7 @@ export default function PulsoPublicoPage() {
 
               <div className="flex flex-col gap-5 sm:gap-6">
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold">Pulso Público — Premium</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold">Pulso Público<br></br>Premium</h3>
                   <p className="mt-2 text-[#3b25a1]/90">
                     Acesso completo a questionários, recortes de público, variações entre ondas e recomendações — com metodologia visível,
                     relatório recorrente e suporte.
