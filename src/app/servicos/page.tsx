@@ -3,13 +3,13 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Users, Gauge, Search, Share2, ArrowRight, Workflow, LineChart, Target } from 'lucide-react';
+import { Workflow, LineChart, Target, ArrowRight } from 'lucide-react';
 
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import CTA from '@/components/CTA';
 import Reveal from '@/components/ux/Reveal';
-import StaggerList from '@/components/ux/StaggerList';
+import Solutions from '@/components/sections/Solutions';
 
 function SectionDivider({ from = '#170d4d', to = '#000000' }: { from?: string; to?: string }) {
   return (
@@ -21,40 +21,9 @@ function SectionDivider({ from = '#170d4d', to = '#000000' }: { from?: string; t
   );
 }
 
-const services = [
-  {
-    icon: Users,
-    title: 'Pêndulo Digital',
-    subtitle: 'Quem influencia?',
-    desc: 'Índice proprietário de influência digital. Descubra em tempo real quem move o debate.',
-    href: '/servicos/pendulo-digital',
-  },
-  {
-    icon: Gauge,
-    title: 'Pulso Público',
-    subtitle: 'O que o público pensa?',
-    desc: 'Surveys online rápidos e confiáveis para mapear opinião, intenção de voto e percepção.',
-    href: '/servicos/pulso-publico',
-  },
-  {
-    icon: Search,
-    title: 'Lupa Social',
-    subtitle: 'Como você é percebido?',
-    desc: 'Social listening + análise de sentimento. Transforme ruído em informação estratégica.',
-    href: '/servicos/lupa-social',
-  },
-  {
-    icon: Share2,
-    title: 'Rastro 360',
-    subtitle: 'O que circula e impacta?',
-    desc: 'Rastreamento de narrativas, slogans e mensagens. Entenda a disputa de narrativas.',
-    href: '/servicos/rastro-360',
-  },
-];
-
 export default function ServicosPage() {
   return (
-    <main className="min-h-screen bg-[#170d4d] text-[#d9d9d9]">
+    <main className="min-h-screen bg-[#170d4d] text-[#d9d9d9] overflow-x-hidden">
       <Nav />
 
       {/* HERO */}
@@ -81,17 +50,17 @@ export default function ServicosPage() {
             </Reveal>
             <Reveal delay={180}>
               <p className="mt-5 text-base sm:text-lg lg:text-xl text-[#d9d9d9]/85">
-                Quatro módulos integrados para ler influência, opinião, sentimento e narrativa em um só lugar.
+                Cinco módulos integrados para ler influência, opinião, sentimento, narrativa e atitude em um só lugar.
               </p>
             </Reveal>
             <Reveal delay={240}>
               <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                <Link
+                <a
                   href="#solucoes"
                   className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 bg-[#3b25a1] text-white font-semibold shadow-[0_10px_30px_rgba(59,37,161,0.35)] hover:brightness-110 transition"
                 >
                   ver soluções <ArrowRight size={18} />
-                </Link>
+                </a>
                 <Link
                   href="/contato"
                   className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 border border-[#38d4b0] text-[#d9d9d9] font-semibold hover:bg-[#38d4b0]/10 transition"
@@ -106,59 +75,8 @@ export default function ServicosPage() {
 
       <SectionDivider from="#000000" to="#170d4d" />
 
-      {/* SOLUÇÕES */}
-      <section id="solucoes" className="relative bg-[#170d4d]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
-          <div className="text-center">
-            <Reveal>
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-                Quatro soluções, <span className="text-[#38d4b0]">uma visão completa</span>
-              </h2>
-            </Reveal>
-            <Reveal delay={120}>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl text-[#d9d9d9]/85">
-                Dashboards dinâmicos, atualizados em tempo real — sem PDFs estáticos.
-              </p>
-            </Reveal>
-          </div>
-
-          <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
-            <StaggerList step={90} y={20}>
-              {services.map((s) => (
-                <article
-                  key={s.title}
-                  className="
-                    group rounded-2xl p-5 sm:p-6
-                    bg-white/5 backdrop-blur
-                    border border-[#38d4b0]/20
-                    shadow-[0_10px_30px_rgba(0,0,0,0.20)]
-                    transition-all duration-300 ease-out will-change-transform
-                    motion-safe:hover:scale-[1.02] motion-safe:hover:-translate-y-1.5
-                    hover:bg-white/10 hover:border-[#38d4b0]/35 hover:shadow-[0_18px_48px_rgba(0,0,0,0.35)]
-                    min-w-0 break-words
-                  "
-                >
-                  <div className="inline-flex items-center justify-center rounded-xl size-12 bg-[#38d4b0]/15 ring-1 ring-[#38d4b0]/30">
-                    <s.icon className="h-6 w-6 text-[#38d4b0]" />
-                  </div>
-                  <h3 className="mt-4 text-xl sm:text-2xl font-semibold">{s.title}</h3>
-                  <p className="text-sm sm:text-base text-[#d9d9d9]/70">{s.subtitle}</p>
-                  <p className="mt-3 text-sm sm:text-base text-[#d9d9d9]/85">{s.desc}</p>
-
-                  <div className="mt-5">
-                    <Link
-                      href={s.href}
-                      className="inline-flex items-center gap-2 text-sm sm:text-base text-[#38d4b0] hover:text-[#38d4b0]/90"
-                    >
-                      ver detalhes <ArrowRight size={16} />
-                    </Link>
-                  </div>
-                </article>
-              ))}
-            </StaggerList>
-          </div>
-        </div>
-      </section>
+      {/* SOLUÇÕES via componente compartilhado */}
+      <Solutions />
 
       <SectionDivider from="#170d4d" to="#D9D9D9" />
 
@@ -195,14 +113,13 @@ export default function ServicosPage() {
             ))}
           </div>
 
-          {/* CTA inline opcional */}
           <Reveal delay={120}>
             <div className="mt-10 text-center">
               <Link
                 href="/contato"
                 className="inline-flex items-center gap-2 rounded-full px-6 py-3 font-bold bg-[#3b25a1] text-white shadow-[0_10px_30px_rgba(59,37,161,0.35)] hover:brightness-110 transition"
               >
-                solicitar demonstração <ArrowRight size={18} />
+                saber mais <ArrowRight size={18} />
               </Link>
             </div>
           </Reveal>
@@ -211,7 +128,6 @@ export default function ServicosPage() {
 
       <SectionDivider from="#D9D9D9" to="#000000" />
 
-      {/* CTA geral + footer */}
       <CTA />
       <Footer />
     </main>

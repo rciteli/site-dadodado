@@ -47,7 +47,7 @@ export default function CTA() {
                 "
                 aria-label="Fale com a gente"
               >
-                Fale com a gente <ArrowRight size={18} />
+                fale com a gente <ArrowRight size={18} />
               </Link>
             </div>
           </div>

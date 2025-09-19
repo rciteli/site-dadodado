@@ -41,7 +41,7 @@ export default function Rastro360Page() {
             </Reveal>
             <Reveal delay={100}>
               <h1 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-                Rastro 360
+                entrar em contato
               </h1>
             </Reveal>
             <Reveal delay={180}>
@@ -57,7 +57,7 @@ export default function Rastro360Page() {
                   href="/contato"
                   className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 bg-[#3b25a1] text-white font-semibold shadow-[0_10px_30px_rgba(59,37,161,0.35)] hover:brightness-110 transition"
                 >
-                  solicitar demo <ArrowRight size={18} />
+                  saber mais <ArrowRight size={18} />
                 </Link>
               </div>
             </Reveal>
@@ -156,7 +156,7 @@ export default function Rastro360Page() {
       <section className="relative bg-[#D9D9D9] text-[#3b25a1]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
           <Reveal>
-            <h2 className="text-2xl sm:text-3xl font-bold text-center">Plano Premium</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-center">Rastro 360</h2>
           </Reveal>
 
           <div className="mt-8 mx-auto max-w-3xl">
@@ -167,16 +167,9 @@ export default function Rastro360Page() {
                 shadow-[0_10px_30px_rgba(0,0,0,0.08)]
               "
             >
-              {/* Badge oferta */}
-              <div className="absolute top-3 right-4">
-                <span className="inline-block rounded-full bg-[#3b25a1] px-3 py-1 text-xs font-semibold text-white shadow">
-                  1 relatório gratuito na demo
-                </span>
-              </div>
 
               <div className="flex flex-col gap-5 sm:gap-6">
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold">Rastro 360<br></br>Premium</h3>
                   <p className="mt-2 text-[#3b25a1]/90">
                     Acesso completo a narrativas, rotas de difusão, hubs e comparações de frames — com séries,
                     alertas e recomendações. Inclui suporte e Q&amp;A.
@@ -210,14 +203,10 @@ export default function Rastro360Page() {
                       hover:brightness-110 transition
                     "
                   >
-                    solicitar demonstração gratuita
+                    entrar em contato
                     <ArrowRight size={18} />
                   </Link>
                 </div>
-
-                <p className="text-xs text-[#3b25a1]/70">
-                  *A demonstração inclui 1 relatório gratuito com recorte de período e escopo definidos no agendamento.
-                </p>
               </div>
             </div>
           </div>

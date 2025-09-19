@@ -1,0 +1,12 @@
+{
+  "wave": "P4",
+  "players": [
+    { "id": "candA", "name": "Candidato A", "color": "#38d4b0", "isClient": true, "sirIndex": 78 },
+    { "id": "candB", "name": "Candidato B", "color": "#a855f7", "sirIndex": 65 }
+  ],
+  "series": [
+    { "date": "P4-D1", "Candidato A": 72, "Candidato B": 61 },
+    { "date": "P4-D2", "Candidato A": 75, "Candidato B": 63 },
+    { "date": "P4-D3", "Candidato A": 78, "Candidato B": 65 }
+  ]
+}

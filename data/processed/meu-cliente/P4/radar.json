@@ -1,0 +1,28 @@
+{
+  "wave": "P4",
+  "radar": [
+    { "metric": "Presença", "Candidato A": 1, "Candidato B": 1 },
+    { "metric": "Popularidade", "Candidato A": 68, "Candidato B": 61 },
+    { "metric": "Atividade", "Candidato A": 72, "Candidato B": 55 },
+    { "metric": "Engajamento", "Candidato A": 64, "Candidato B": 57 },
+    { "metric": "Difusão", "Candidato A": 70, "Candidato B": 52 }
+  ],
+  "dimensionSeries": {
+    "Popularidade": [
+      { "date": "P4-D1", "Candidato A": 66, "Candidato B": 58 },
+      { "date": "P4-D2", "Candidato A": 67, "Candidato B": 60 }
+    ],
+    "Atividade": [
+      { "date": "P4-D1", "Candidato A": 71, "Candidato B": 54 },
+      { "date": "P4-D2", "Candidato A": 72, "Candidato B": 55 }
+    ],
+    "Engajamento": [
+      { "date": "P4-D1", "Candidato A": 62, "Candidato B": 56 },
+      { "date": "P4-D2", "Candidato A": 64, "Candidato B": 57 }
+    ],
+    "Difusão": [
+      { "date": "P4-D1", "Candidato A": 69, "Candidato B": 51 },
+      { "date": "P4-D2", "Candidato A": 70, "Candidato B": 52 }
+    ]
+  }
+}

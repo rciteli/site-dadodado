@@ -12,19 +12,19 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Contato — DADODADO',
-    description: 'Fale com a DADODADO: agende uma demo, tire dúvidas e conheça nossas soluções.',
-    alternates: { canonical: 'https://seu-dominio.com/contato' },
+    description: 'Fale com a DADODADO: tire dúvidas e conheça nossas soluções.',
+    alternates: { canonical: 'https://dadodado.vercel.app/contato' },
     openGraph: {
         type: 'website',
-        url: 'https://seu-dominio.com/contato',
+        url: 'https://dadodado.vercel.app/contato',
         siteName: 'DADODADO',
         title: 'Contato — DADODADO',
-        description: 'Fale com a DADODADO: agende uma demo, tire dúvidas e conheça nossas soluções.',
+        description: 'Fale com a DADODADO: tire dúvidas e conheça nossas soluções.',
     },
     twitter: {
         card: 'summary_large_image',
         title: 'Contato — DADODADO',
-        description: 'Fale com a DADODADO: agende uma demo, tire dúvidas e conheça nossas soluções.',
+        description: 'Fale com a DADODADO: tire dúvidas e conheça nossas soluções.',
     },
 };
 
@@ -134,8 +134,8 @@ export default function ContatoPage() {
                             <div className="mt-4 divide-y divide-white/10 rounded-2xl border border-white/10 bg-white/5">
                                 {[
                                     {
-                                        q: 'A demo é realmente gratuita?',
-                                        a: 'Sim. Inclui 1 relatório ou recorte gratuito definido no agendamento, sem compromisso.',
+                                        q: 'A demo do Pêndulo Digital é realmente gratuita?',
+                                        a: 'Sim. Inclui 1 relatório gratuito definido no agendamento, sem compromisso, com número limitado de concorrentes e período de análise.',
                                     },
                                     {
                                         q: 'Vocês atendem empresas e campanhas?',

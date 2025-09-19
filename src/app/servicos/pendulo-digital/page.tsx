@@ -158,7 +158,7 @@ export default function PenduloDigitalPage() {
             <section className="relative bg-[#D9D9D9] text-[#3b25a1]">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
                     <Reveal>
-                        <h2 className="text-2xl sm:text-3xl font-bold text-center">Plano Premium</h2>
+                        <h2 className="text-2xl sm:text-3xl font-bold text-center">Pêndulo Digital</h2>
                     </Reveal>
 
                     <div className="mt-8 mx-auto max-w-3xl">
@@ -169,16 +169,8 @@ export default function PenduloDigitalPage() {
           shadow-[0_10px_30px_rgba(0,0,0,0.08)]
         "
                         >
-                            {/* Badge oferta */}
-                            <div className="absolute top-3 right-4">
-                                <span className="inline-block rounded-full bg-[#3b25a1] px-3 py-1 text-xs font-semibold text-white shadow">
-                                    1 relatório gratuito na demo
-                                </span>
-                            </div>
-
                             <div className="flex flex-col gap-5 sm:gap-6">
                                 <div>
-                                    <h3 className="text-xl sm:text-2xl font-bold">Pêndulo Digital<br></br>Premium</h3>
                                     <p className="mt-2 text-[#3b25a1]/90">
                                         Acesso completo ao índice (0–100), dimensões, série temporal, visão competitiva e recomendações.
                                         Inclui suporte e acompanhamento.

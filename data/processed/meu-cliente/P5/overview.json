@@ -1,0 +1,386 @@
+{
+  "wave": "P5",
+  "players": [
+    {
+      "id": "9",
+      "name": "9",
+      "color": "#7dd3fc",
+      "sirIndex": 69.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "9"
+    },
+    {
+      "id": "10",
+      "name": "10",
+      "color": "#7dd3fc",
+      "sirIndex": 63.98,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "10"
+    },
+    {
+      "id": "7",
+      "name": "7",
+      "color": "#38d4b0",
+      "sirIndex": 63.27,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "7"
+    },
+    {
+      "id": "4",
+      "name": "4",
+      "color": "#fde68a",
+      "sirIndex": 61.02,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "4"
+    },
+    {
+      "id": "5",
+      "name": "5",
+      "color": "#fca5a5",
+      "sirIndex": 56.07,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "5"
+    },
+    {
+      "id": "3",
+      "name": "3",
+      "color": "#3b25a1",
+      "sirIndex": 55.03,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "3"
+    },
+    {
+      "id": "jair-bolsonaro",
+      "name": "Jair Bolsonaro",
+      "color": "#f472b6",
+      "sirIndex": 47.36,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "JA"
+    },
+    {
+      "id": "8",
+      "name": "8",
+      "color": "#f472b6",
+      "sirIndex": 40.26,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "8"
+    },
+    {
+      "id": "lula",
+      "name": "Lula",
+      "color": "#7dd3fc",
+      "sirIndex": 38.6,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "LU"
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "color": "#7dd3fc",
+      "sirIndex": 35.14,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "2"
+    },
+    {
+      "id": "0",
+      "name": "0",
+      "color": "#f472b6",
+      "sirIndex": 34.36,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "0"
+    },
+    {
+      "id": "tarcísio-de-freitas",
+      "name": "Tarcísio de Freitas",
+      "color": "#a78bfa",
+      "sirIndex": 29.34,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "TA"
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "color": "#3b25a1",
+      "sirIndex": 28.79,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "1"
+    },
+    {
+      "id": "ratinho-junior",
+      "name": "Ratinho Junior",
+      "color": "#60a5fa",
+      "sirIndex": 28.29,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "RA"
+    },
+    {
+      "id": "ronaldo-caiado",
+      "name": "Ronaldo Caiado",
+      "color": "#fde68a",
+      "sirIndex": 26.79,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "RO"
+    },
+    {
+      "id": "eduardo-leite",
+      "name": "Eduardo Leite",
+      "color": "#34d399",
+      "sirIndex": 23.96,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "ED"
+    },
+    {
+      "id": "eduardo-bolsonaro",
+      "name": "Eduardo Bolsonaro",
+      "color": "#fca5a5",
+      "sirIndex": 21.49,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "ED"
+    },
+    {
+      "id": "romeu-zema",
+      "name": "Romeu Zema",
+      "color": "#38d4b0",
+      "sirIndex": 19.75,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "RO"
+    },
+    {
+      "id": "fernando-haddad",
+      "name": "Fernando Haddad",
+      "color": "#34d399",
+      "sirIndex": 17.32,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "FE"
+    },
+    {
+      "id": "ciro-gomes",
+      "name": "Ciro Gomes",
+      "color": "#a78bfa",
+      "sirIndex": 14.74,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "CI"
+    },
+    {
+      "id": "michelle-bolsonaro",
+      "name": "Michelle Bolsonaro",
+      "color": "#60a5fa",
+      "sirIndex": 5.02,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "MI"
+    },
+    {
+      "id": "6",
+      "name": "6",
+      "color": "#fde68a",
+      "sirIndex": 3.68,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "6"
+    },
+    {
+      "id": "21",
+      "name": "21",
+      "color": "#fde68a",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "21"
+    },
+    {
+      "id": "20",
+      "name": "20",
+      "color": "#a78bfa",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "20"
+    },
+    {
+      "id": "19",
+      "name": "19",
+      "color": "#60a5fa",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "19"
+    },
+    {
+      "id": "18",
+      "name": "18",
+      "color": "#fde68a",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "18"
+    },
+    {
+      "id": "17",
+      "name": "17",
+      "color": "#f59e0b",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "17"
+    },
+    {
+      "id": "16",
+      "name": "16",
+      "color": "#38d4b0",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "16"
+    },
+    {
+      "id": "15",
+      "name": "15",
+      "color": "#34d399",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "15"
+    },
+    {
+      "id": "14",
+      "name": "14",
+      "color": "#60a5fa",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "14"
+    },
+    {
+      "id": "13",
+      "name": "13",
+      "color": "#a78bfa",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "13"
+    },
+    {
+      "id": "12",
+      "name": "12",
+      "color": "#34d399",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "12"
+    },
+    {
+      "id": "11",
+      "name": "11",
+      "color": "#7dd3fc",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "11"
+    },
+    {
+      "id": "26",
+      "name": "26",
+      "color": "#f59e0b",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "26"
+    },
+    {
+      "id": "22",
+      "name": "22",
+      "color": "#f59e0b",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "22"
+    },
+    {
+      "id": "23",
+      "name": "23",
+      "color": "#60a5fa",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "23"
+    },
+    {
+      "id": "24",
+      "name": "24",
+      "color": "#34d399",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "24"
+    },
+    {
+      "id": "25",
+      "name": "25",
+      "color": "#3b25a1",
+      "sirIndex": 1.59,
+      "trend": "up",
+      "trendValue": 0,
+      "isClient": false,
+      "avatar": "25"
+    }
+  ],
+  "series": []
+}

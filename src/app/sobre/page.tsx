@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, Target, LineChart, Users, Gauge, ShieldCheck, Sparkles } from 'lucide-react';
+import { ArrowRight, Target, LineChart, Users, Gauge, ShieldCheck, Sparkles, MessageSquare } from 'lucide-react';
 import Nav from '@/components/Nav';
 
 import Reveal from '@/components/ux/Reveal';
@@ -108,13 +108,13 @@ export default function SobrePage() {
                     href="/servicos"
                     className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 w-full sm:w-auto bg-[#3b25a1] text-white font-semibold shadow-[0_10px_30px_rgba(59,37,161,0.35)] hover:brightness-110 transition"
                   >
-                    Nossas soluções <ArrowRight size={18} />
+                    nossas soluções <ArrowRight size={18} />
                   </Link>
                   <Link
                     href="/contato"
                     className="inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 w-full sm:w-auto border border-[#38d4b0] text-[#d9d9d9] font-semibold hover:bg-[#38d4b0]/10 transition"
                   >
-                    Fale com a gente
+                    fale com a gente
                   </Link>
                 </div>
               </Reveal>
@@ -189,16 +189,17 @@ export default function SobrePage() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">Como trabalhamos</h2>
             <p className="mt-4 text-base sm:text-lg lg:text-xl">
-              Integramos quatro soluções modulares em um único ambiente: influência, opinião, sentimento e narrativa.
+              Integramos cinco soluções modulares em um único ambiente: influência, opinião, sentimento, narrativa e atitude.
             </p>
           </div>
 
-          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 sm:gap-6">
             {[
               { icon: Users, title: 'Pêndulo Digital', desc: 'Índice proprietário de influência — quem move a conversa.' },
               { icon: Gauge, title: 'Pulso Público', desc: 'Surveys online para mapear opinião e variações.' },
               { icon: LineChart, title: 'Lupa Social', desc: 'Listening + sentimento para entender percepção.' },
               { icon: Sparkles, title: 'Rastro 360', desc: 'Rastreamento de narrativas, slogans e mensagens.' },
+              { icon: MessageSquare, title: 'Voz Ativa', desc: 'Grupos focais e entrevistas para pesquisa qualitativa.' },
             ].map((m, i) => (
               <Reveal key={m.title} delay={i * 90}>
                 <div
